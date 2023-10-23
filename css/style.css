@@ -116,7 +116,7 @@ input[type="radio"]:checked {
   font-family: "Urbanist", sans-serif;
 }
 html {
-  font-size: 60%;
+  font-size: 62%;
 }
 body {
   height: 100vh;
@@ -137,52 +137,52 @@ body {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #question {
-  font-size: 1.2rem;
-  padding: 1.8rem 5rem;
+  font-size: 2.2rem;
+  padding: 4rem 5rem;
 }
 ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 1.8rem;
-  padding: 2rem 5rem;
+  gap: 2rem;
+  padding: 4rem 5rem;
 }
 li {
   list-style: none;
   min-width: 40%;
-  min-height: 3.2rem;
+  min-height: 7rem;
   border-radius: 7rem;
   border: 1px solid #e0e0e0;
-  padding: 0 5rem 0 1.8rem;
+  padding: 0 7rem 0 3rem;
   -webkit-border-radius: 5rem;
   -moz-border-radius: 5rem;
   -ms-border-radius: 5rem;
   -o-border-radius: 5rem;
   -webkit-border-radius: 5rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
   font-weight: 700;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 label {
-  padding-left: 0.8rem;
+  padding-left: 1rem;
 }
 input[type="radio"] {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
 }
 input[type="radio"]:checked {
   background-color: #8ec5fc;
   border-color: #8ec5fc;
 }
 .btn {
-  padding: 1.7rem 3rem;
+  padding: 2rem 5rem;
 }
 button {
-  padding: 0 2.7rem;
-  height: 2.7rem;
+  padding: 0 5rem;
+  height: 5rem;
   border-radius: 5rem;
   -webkit-border-radius: 5rem;
   -moz-border-radius: 5rem;
@@ -191,7 +191,7 @@ button {
   background-color: #7090e7;
   border: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 .result {
@@ -207,12 +207,12 @@ button {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 2.4rem;
   align-items: center;
 }
 .result h2 {
-  font-size: 1.4rem;
+  font-size: 3rem;
 }
 .result p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
